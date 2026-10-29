@@ -2,6 +2,10 @@
 
 An AI-powered city assistant built with **Streamlit, LangChain, Ollama Cloud, OpenWeatherMap, and Tavily** to provide current weather information and recent city news through an interactive chat interface.
 
+🚀 Live Demo:[ Open City Intelligence Dashboard](https://city-intelligence-cvqh8hqllhm4g2a5jar8yh.streamlit.app/)
+
+An AI-powered dashboard for city weather, latest news, and local information, built using Streamlit, LangChain, and Ollama Cloud.
+
 ## ✨ Features
 
 - 🌦️ Current weather, temperature, humidity, and wind speed.
