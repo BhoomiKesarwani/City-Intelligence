@@ -248,9 +248,24 @@ def get_news(city: str) -> str:
 
 @st.cache_resource
 def build_agent():
+
+    api_key = st.secrets.get(
+        "OLLAMA_API_KEY",
+        os.getenv("OLLAMA_API_KEY", "")
+    )
+
+    if not api_key:
+        st.error("OLLAMA_API_KEY is missing from Streamlit Secrets.")
+        st.stop()
+
     llm = ChatOllama(
         model="gpt-oss:120b",
         base_url="https://ollama.com",
+        client_kwargs={
+            "headers": {
+                "Authorization": f"Bearer {api_key}"
+            }
+        }
     )
 
     return create_agent(
