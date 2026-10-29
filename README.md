@@ -99,8 +99,8 @@ Deploy using [Streamlit Community Cloud](https://share.streamlit.io/). Connect y
 
 ## 👩‍💻 Author
 
-**Your Name**  
-GitHub: https://github.com/YOUR_USERNAME
+**Bhoomi Kesarwani**  
+GitHub: https://github.com/BhoomiKesarwani
 
 ---
 
